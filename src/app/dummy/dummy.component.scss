@@ -1,0 +1,20 @@
+p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+button {
+  background: rgb(98, 98, 197);
+  color: #eeeeee;
+  padding: 1em 2em;
+  font-size: 2rem;
+  border: rgb(98, 98, 197);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    outline: rgb(98, 98, 197);
+  }
+
+
+}
