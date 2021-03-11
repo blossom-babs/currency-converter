@@ -1,1 +1,14 @@
-<p>converter works!</p>
+<div class="container">
+  <h1>Currency converter</h1>
+
+  <div>
+    <input type="number" placeholder="amount" [(ngModel)]="amount" />
+    <p>From USD to NG</p>
+
+    <div>
+      <label [style.color]="amount < 0 ? 'red' : ''"
+        >{{ amount.toFixed(2) }} USD = {{ convert().toFixed(2) }} NG</label
+      >
+    </div>
+  </div>
+</div>

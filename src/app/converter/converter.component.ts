@@ -3,13 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-converter',
   templateUrl: './converter.component.html',
-  styleUrls: ['./converter.component.scss']
+  styleUrls: ['./converter.component.scss'],
 })
 export class ConverterComponent implements OnInit {
+  amount = 2;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  convert() {
+    return Number(this.amount * 381.25);
   }
+  constructor() {}
 
+  ngOnInit(): void {}
 }

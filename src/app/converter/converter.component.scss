@@ -1,0 +1,26 @@
+:host {
+  text-align: center;
+
+}
+
+.container {
+  padding-top: 2rem;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+input:focus {
+
+  outline: 1px solid rgb(126, 126, 219);
+}
+
+p {
+  font-size: .8rem;
+}
+
+label {
+  color: rgb(126, 126, 219);
+  font-weight: bolder;
+}

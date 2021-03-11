@@ -10,7 +10,7 @@ export class DummyComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  title = 'Dummy Component';
+  title = 'currency converter';
   name = 'Blossom';
   counter = 0;
 

@@ -7,6 +7,7 @@ import { DummyComponent } from './dummy/dummy.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ConverterComponent } from './converter/converter.component';
 import { AboutComponent } from './about/about.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,13 +15,10 @@ import { AboutComponent } from './about/about.component';
     DummyComponent,
     NavbarComponent,
     ConverterComponent,
-    AboutComponent
+    AboutComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

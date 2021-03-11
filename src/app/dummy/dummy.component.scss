@@ -1,13 +1,18 @@
 p {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1rem;
+}
+
+.container {
+  text-align: center;
+  padding-top: 2rem;
 }
 
 button {
   background: rgb(98, 98, 197);
   color: #eeeeee;
-  padding: 1em 2em;
-  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
   border: rgb(98, 98, 197);
   cursor: pointer;
 
