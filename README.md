@@ -29,5 +29,5 @@ Get the latest conversion rate for any currency.
 
 ## Live project 
 
-[Currency Converter](https://angular.io/)
+[Currency Converter](https://blo-currencyconverter.netlify.app/)
 
